@@ -10,7 +10,7 @@ skip-lint = false
 liqour_defi = "8GJSMj5uS8taTU4nf1jNdmSs7ygTaN5SQeaT5qFbHXfE"
 
 [provider]
-cluster = "localnet"
+cluster = "devnet"
 wallet = "~/.config/solana/id.json"
 
 [scripts]

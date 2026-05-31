@@ -17,7 +17,7 @@ pub fn withdraw(ctx: Context<Withdraw>, amount: u64) -> Result<()> {
     // vault_config PDA signs the transfer
     token::transfer(
         CpiContext::new_with_signer(
-            ctx.accounts.token_program.to_account_info(),
+            ctx.accounts.token_program.key(),
             Transfer {
                 from:      ctx.accounts.vault_token_account.to_account_info(),
                 to:        ctx.accounts.user_usdc.to_account_info(),
