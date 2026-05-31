@@ -1607,10 +1607,16 @@ dependencies = [
  "anchor-lang",
  "anchor-spl",
  "litesvm",
+ "solana-account",
  "solana-keypair",
  "solana-message",
+ "solana-program-option",
+ "solana-program-pack",
+ "solana-pubkey 3.0.0",
  "solana-signer",
+ "solana-sysvar",
  "solana-transaction",
+ "spl-associated-token-account-interface",
 ]
 
 [[package]]
